@@ -3,8 +3,8 @@
 int a = int.Parse(Console.ReadLine());
 int sum = 0;
 
-for (int n = 1; n<a+1; n++)
-
-    {
-        Console.WriteLine(sum = sum + n);
-    }
+for (int i = 1; i < a+1; i++)
+{
+    sum = i+sum;
+}
+Console.WriteLine(sum);
